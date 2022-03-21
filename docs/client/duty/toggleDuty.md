@@ -2,7 +2,7 @@ Triggered after player goes on/off duty client side
 
 ## Event
 ``` lua
-AddEventHandler("esx_job_creator:toggleDuty", function(isOnDuty)
+AddEventHandler("jobs_creator:toggleDuty", function(isOnDuty)
 
 end)
 ```
@@ -15,7 +15,7 @@ end)
 
 ## Example
 ``` lua
-AddEventHandler("esx_job_creator:toggleDuty", function(isOnDuty)
+AddEventHandler("jobs_creator:toggleDuty", function(isOnDuty)
     if(isOnDuty) then
         ESX.ShowNotification("You are now on duty")
     else

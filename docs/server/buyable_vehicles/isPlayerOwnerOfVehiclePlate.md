@@ -2,7 +2,7 @@ Returns if a player ID is the owner of a specific plate
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:isPlayerOwnerOfVehiclePlate(playerId, plate)
+exports["jobs_creator"]:isPlayerOwnerOfVehiclePlate(playerId, plate)
 ```
 
 ### Parameters
@@ -21,7 +21,7 @@ exports["esx_job_creator"]:isPlayerOwnerOfVehiclePlate(playerId, plate)
 ``` lua
 local playerId = 1
 local plate = "40PQB261"
-local isTheVehicleOwner = exports["esx_job_creator"]:isPlayerOwnerOfVehiclePlate(playerId, plate)
+local isTheVehicleOwner = exports["jobs_creator"]:isPlayerOwnerOfVehiclePlate(playerId, plate)
 
 print("Is the player owner of that plate: " .. tostring(isTheVehicleOwner))
 ```

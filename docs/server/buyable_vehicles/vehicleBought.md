@@ -2,7 +2,7 @@ Triggered when a player buys a vehicle from buyable garage marker
 
 ## Event
 ``` lua
-RegisterNetEvent("esx_job_creator:permanent_garage:vehicleBought", function(playerId, markerId, vehicleName, vehicleId)
+RegisterNetEvent("jobs_creator:permanent_garage:vehicleBought", function(playerId, markerId, vehicleName, vehicleId)
 
 end)
 ```
@@ -18,7 +18,7 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:permanent_garage:vehicleBought", function(playerId, markerId, vehicleName, vehicleId)
+RegisterNetEvent("jobs_creator:permanent_garage:vehicleBought", function(playerId, markerId, vehicleName, vehicleId)
     print("Player ID :" .. playerId .. " bought a " .. vehicleName .. " with ID " .. vehicleId .. " from marker " .. markerId)
 end)
 ```

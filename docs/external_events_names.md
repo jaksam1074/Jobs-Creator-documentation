@@ -1,4 +1,4 @@
-In case your server uses different event names than the default ones, you can edit those names in `esx_job_creator/integrations/cl_integrations.lua` **and** `esx_job_creator/integrations/sv_integrations.lua`
+In case your server uses different event names than the default ones, you can edit those names in `jobs_creator/integrations/cl_integrations.lua` **and** `jobs_creator/integrations/sv_integrations.lua`
 
 Example of default ones:
 

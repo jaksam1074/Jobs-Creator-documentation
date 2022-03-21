@@ -2,7 +2,7 @@ Triggered after player goes on/off duty server side
 
 ## Event
 ``` lua
-RegisterNetEvent("esx_job_creator:toggleDuty", function(playerId, jobName, isOnDuty)
+RegisterNetEvent("jobs_creator:toggleDuty", function(playerId, jobName, isOnDuty)
 
 end)
 ```
@@ -17,7 +17,7 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:toggleDuty", function(playerId, jobName, isOnDuty)
+RegisterNetEvent("jobs_creator:toggleDuty", function(playerId, jobName, isOnDuty)
     if(isOnDuty) then
         TriggerEvent("external_scoreboard:increaseOnDutyCount", jobName)
     else

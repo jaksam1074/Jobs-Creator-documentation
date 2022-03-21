@@ -6,7 +6,7 @@ You'll have to follow **all steps** from your _current version_ to the _newer on
 A **backup** is always suggested before doing these steps
 
 ## 3.5 Update - to do if your version is older than 3.5
-Add the following code in `esx_job_creator/integrations/sv_integrations.lua` and use the command in the server console or in game (there will be an output when you use the command)
+Add the following code in `jobs_creator/integrations/sv_integrations.lua` and use the command in the server console or in game (there will be an output when you use the command)
 ``` lua
 RegisterCommand('updateRecipes', function(playerId)
     if(playerId == 0 or isAllowed(playerId)) then
@@ -63,7 +63,7 @@ UPDATE job_shop SET item_type = "item_standard";
 ```
 
 ## 3.11 Update - to do if your version is older than 3.11
-Add the following code in `esx_job_creator/integrations/sv_integrations.lua` and use the command in the server console or in game (there will be an output when you use the command)
+Add the following code in `jobs_creator/integrations/sv_integrations.lua` and use the command in the server console or in game (there will be an output when you use the command)
 ```lua
 RegisterCommand('updateHarvest', function(playerId)
     if(playerId == 0 or isAllowed(playerId)) then
@@ -119,7 +119,7 @@ RENAME TABLE
 ```
 
 ## 3.16 Update - to do if your version is older than 3.16
-Add the following code in `esx_job_creator/integrations/sv_integrations.lua` and use the command in the server console or in game (there will be an output when you use the command)
+Add the following code in `jobs_creator/integrations/sv_integrations.lua` and use the command in the server console or in game (there will be an output when you use the command)
 
 ```lua
 RegisterCommand('updateShops', function(playerId)
@@ -159,7 +159,7 @@ end)
 ```
 
 ## 3.18 Update - to do if your version is older than 3.18
-Add the following code in `esx_job_creator/integrations/sv_integrations.lua` and use the command in the server console or in game (there will be an output when you use the command)
+Add the following code in `jobs_creator/integrations/sv_integrations.lua` and use the command in the server console or in game (there will be an output when you use the command)
 
 ```lua
 RegisterCommand('updateHarvest2', function(playerId)
@@ -216,7 +216,7 @@ UPDATE jobs_data SET grades_type="minimumGrade" WHERE grades_type IS NULL;
 
 <br>
 
-Add the following code in `esx_job_creator/integrations/sv_integrations.lua` and use **both commands** in the server console or in game (there will be an output when you use the command)
+Add the following code in `jobs_creator/integrations/sv_integrations.lua` and use **both commands** in the server console or in game (there will be an output when you use the command)
 
 ```lua
 RegisterCommand('updateHarvest3', function(playerId)

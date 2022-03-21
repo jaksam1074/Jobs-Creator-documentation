@@ -2,7 +2,7 @@ To get a list of all weapons stored in a specific armory ID.
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:getAllArmoryWeapons(markerId)
+exports["jobs_creator"]:getAllArmoryWeapons(markerId)
 ```
 
 ### Parameters

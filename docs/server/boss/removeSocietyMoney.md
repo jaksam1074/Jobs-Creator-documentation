@@ -2,7 +2,7 @@ To remove money from a society
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:removeSocietyMoney(jobName, amount)
+exports["jobs_creator"]:removeSocietyMoney(jobName, amount)
 ```
 
 ### Parameters
@@ -19,7 +19,7 @@ exports["esx_job_creator"]:removeSocietyMoney(jobName, amount)
 
 ## Example
 ``` lua
-local isSuccessful = exports["esx_job_creator"]:removeSocietyMoney("police", 5000)
+local isSuccessful = exports["jobs_creator"]:removeSocietyMoney("police", 5000)
 
 print(isSuccessful)
 ```

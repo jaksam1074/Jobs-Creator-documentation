@@ -2,7 +2,7 @@ Returns if the player is on duty or not.
 
 ## Event
 ``` lua
-exports["esx_job_creator"]:isPlayerOnDuty(playerId)
+exports["jobs_creator"]:isPlayerOnDuty(playerId)
 ```
 
 ### Parameters
@@ -21,5 +21,5 @@ exports["esx_job_creator"]:isPlayerOnDuty(playerId)
 ``` lua
 local playerId = 52
 
-print("Player ID " .. playerId .. " is on duty: " .. tostring( exports["esx_job_creator"]:isPlayerOnDuty(playerId) ))
+print("Player ID " .. playerId .. " is on duty: " .. tostring( exports["jobs_creator"]:isPlayerOnDuty(playerId) ))
 ```

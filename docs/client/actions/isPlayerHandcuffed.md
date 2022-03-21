@@ -2,7 +2,7 @@ Returns if the client/player is handcuffed
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:isPlayerHandcuffed()
+exports["jobs_creator"]:isPlayerHandcuffed()
 ```
 
 ### Return value
@@ -12,7 +12,7 @@ exports["esx_job_creator"]:isPlayerHandcuffed()
 
 ## Example
 ``` lua
-if(not exports["esx_job_creator"]:isPlayerHandcuffed())then
+if(not exports["jobs_creator"]:isPlayerHandcuffed())then
     print("You are not handcuffed")
 else
     print("You are handcuffed")

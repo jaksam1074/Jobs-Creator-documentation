@@ -2,7 +2,7 @@ Triggered when opening a stash
 
 ## Event
 ``` lua
-RegisterNetEvent("esx_job_creator:stash:openStash", function(markerId)
+RegisterNetEvent("jobs_creator:stash:openStash", function(markerId)
 
 end)
 ```
@@ -15,13 +15,13 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:esx:ready", function() 
     -- Disables the default script stash
-    exports["esx_job_creator"]:disableScriptEvent("esx_job_creator:stash:openStash")
+    exports["jobs_creator"]:disableScriptEvent("jobs_creator:stash:openStash")
 end)
 
 -- Example to replace the script stash with an external one
-RegisterNetEvent("esx_job_creator:stash:openStash", function(markerId)
+RegisterNetEvent("jobs_creator:stash:openStash", function(markerId)
     -- Example with Chezza's inventory
     TriggerEvent('inventory:open', {
         id = "marker_" .. markerId,

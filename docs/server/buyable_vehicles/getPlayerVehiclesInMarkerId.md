@@ -2,7 +2,7 @@ To get all vehicles owned by a player ID in a specific buyable garage marker ID
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:getPlayerVehiclesInMarkerId(playerId, markerId)
+exports["jobs_creator"]:getPlayerVehiclesInMarkerId(playerId, markerId)
 ```
 
 ### Parameters
@@ -21,7 +21,7 @@ exports["esx_job_creator"]:getPlayerVehiclesInMarkerId(playerId, markerId)
 ``` lua
 local playerId = 1
 local markerId = 252
-local playerVehiclesInMarker = exports["esx_job_creator"]:getPlayerVehiclesInMarkerId(playerId, markerId)
+local playerVehiclesInMarker = exports["jobs_creator"]:getPlayerVehiclesInMarkerId(playerId, markerId)
 
 print(ESX.DumpTable(playerVehiclesInMarker))
 ```

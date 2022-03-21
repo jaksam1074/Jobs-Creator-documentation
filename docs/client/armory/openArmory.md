@@ -2,7 +2,7 @@ Triggered when opening an armory
 
 ## Event
 ``` lua
-AddEventHandler("esx_job_creator:armory:openArmory", function(markerId)
+AddEventHandler("jobs_creator:armory:openArmory", function(markerId)
 
 end)
 ```
@@ -15,13 +15,13 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:esx:ready", function() 
     -- Disables the default script armory
-    exports["esx_job_creator"]:disableScriptEvent("esx_job_creator:armory:openArmory")
+    exports["jobs_creator"]:disableScriptEvent("jobs_creator:armory:openArmory")
 end)
 
 -- Example to replace the script armory with an external one
-RegisterNetEvent("esx_job_creator:armory:openArmory", function(markerId)
+RegisterNetEvent("jobs_creator:armory:openArmory", function(markerId)
     -- Example with Chezza's inventory
     TriggerEvent('inventory:open', {
         id = "marker_" .. markerId,

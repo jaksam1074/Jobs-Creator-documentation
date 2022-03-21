@@ -16,7 +16,7 @@ ESX.StartPayCheck = function()
 			local job     = xPlayer.job.grade_name
 			local salary  = xPlayer.job.grade_salary
 
-			if salary > 0 and exports["esx_job_creator"]:isPlayerOnDuty(xPlayer.source) then
+			if salary > 0 and exports["jobs_creator"]:isPlayerOnDuty(xPlayer.source) then
 				if job == 'unemployed' then -- unemployed
 					xPlayer.addAccountMoney('bank', salary)
 					TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, _U('bank'), _U('received_paycheck'), _U('received_help', salary), 'CHAR_BANK_MAZE', 9)

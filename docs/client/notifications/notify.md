@@ -2,7 +2,7 @@ Triggered after notifying player client side
 
 ## Event
 ``` lua
-RegisterNetEvent("esx_job_creator:notify", function(message, uncoloredMessage)
+RegisterNetEvent("jobs_creator:notify", function(message, uncoloredMessage)
 
 end)
 ```
@@ -16,12 +16,12 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:esx:ready", function() 
     -- Disables the default script notification (otherwise there would be 2 notifications)
-    exports["esx_job_creator"]:disableScriptEvent("esx_job_creator:notify")
+    exports["jobs_creator"]:disableScriptEvent("jobs_creator:notify")
 end)
 
-RegisterNetEvent("esx_job_creator:notify", function(message, uncoloredMessage)
+RegisterNetEvent("jobs_creator:notify", function(message, uncoloredMessage)
     TriggerEvent("external_script:notify", message)
 end)
 ```

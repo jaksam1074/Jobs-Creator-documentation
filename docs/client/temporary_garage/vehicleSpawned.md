@@ -2,7 +2,7 @@ Triggered after the spawn of a temporary vehicle
 
 ## Event
 ``` lua
-AddEventHandler("esx_job_creator:temporary_garage:vehicleSpawned", function(vehicle, vehicleName, vehiclePlate)
+AddEventHandler("jobs_creator:temporary_garage:vehicleSpawned", function(vehicle, vehicleName, vehiclePlate)
 
 end)
 ```
@@ -17,7 +17,7 @@ end)
 
 ## Example
 ``` lua
-AddEventHandler("esx_job_creator:temporary_garage:vehicleSpawned", function(vehicle, vehicleName, vehiclePlate)
+AddEventHandler("jobs_creator:temporary_garage:vehicleSpawned", function(vehicle, vehicleName, vehiclePlate)
 
     -- Example to give keys to the vehicle (you may have a TriggerEvent to use, that's up to you)
     giveKeysToVehicle(vehicle)

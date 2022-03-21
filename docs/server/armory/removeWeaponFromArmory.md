@@ -4,7 +4,7 @@ To add a weapon in a marker ID for a specific player
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:removeWeaponFromArmory(markerId, weaponId)
+exports["jobs_creator"]:removeWeaponFromArmory(markerId, weaponId)
 ```
 
 ### Parameters
@@ -12,7 +12,7 @@ exports["esx_job_creator"]:removeWeaponFromArmory(markerId, weaponId)
 | Name    | Data Type | Description                 |
 | -                 | -         | -                 |
 | `markerId`        | integer   | The marker ID     |
-| `weaponId`| integer    | Weapon ID in the database, can be seen in ``` exports["esx_job_creator"]:getAllArmoryWeapons(markerId) ``` |
+| `weaponId`| integer    | Weapon ID in the database, can be seen in ``` exports["jobs_creator"]:getAllArmoryWeapons(markerId) ``` |
 
 ### Return value
 | Name              | Data Type | Description                                   |
@@ -24,7 +24,7 @@ exports["esx_job_creator"]:removeWeaponFromArmory(markerId, weaponId)
 local markerId = 15
 local weaponId = 356
 
-local success = exports["esx_job_creator"]:removeWeaponFromArmory(markerId, weaponId)
+local success = exports["jobs_creator"]:removeWeaponFromArmory(markerId, weaponId)
 
 print(success)
 ```

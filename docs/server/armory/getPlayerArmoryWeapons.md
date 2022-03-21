@@ -2,7 +2,7 @@ To get a list of weapons of a player stored in a specific armory ID.
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:getPlayerArmoryWeapons(playerId, markerId)
+exports["jobs_creator"]:getPlayerArmoryWeapons(playerId, markerId)
 ```
 
 ### Parameters

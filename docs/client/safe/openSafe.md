@@ -2,7 +2,7 @@ Triggered when opening a safe
 
 ## Event
 ``` lua
-RegisterNetEvent("esx_job_creator:safe:openSafe", function(markerId)
+RegisterNetEvent("jobs_creator:safe:openSafe", function(markerId)
 
 end)
 ```
@@ -15,13 +15,13 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:esx:ready", function() 
     -- Disables the default script safe
-    exports["esx_job_creator"]:disableScriptEvent("esx_job_creator:safe:openSafe")
+    exports["jobs_creator"]:disableScriptEvent("jobs_creator:safe:openSafe")
 end)
 
 -- Example to replace the script safe with an external one
-RegisterNetEvent("esx_job_creator:safe:openSafe", function(markerId)
+RegisterNetEvent("jobs_creator:safe:openSafe", function(markerId)
     -- Example with Chezza's inventory
     TriggerEvent('inventory:open', {
         id = "marker_" .. markerId,

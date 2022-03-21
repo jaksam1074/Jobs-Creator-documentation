@@ -2,7 +2,7 @@ To get a list of weapons of a player stored in a specific armory ID.
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:getJobAccountMoney(jobName)
+exports["jobs_creator"]:getJobAccountMoney(jobName)
 ```
 
 ### Parameters
@@ -18,7 +18,7 @@ exports["esx_job_creator"]:getJobAccountMoney(jobName)
 
 ## Example
 ``` lua
-local jobMoney = exports["esx_job_creator"]:getJobAccountMoney("gang_job")
+local jobMoney = exports["jobs_creator"]:getJobAccountMoney("gang_job")
 
 print(jobMoney)
 ```

@@ -2,7 +2,7 @@ Triggered when searching in a player inventory
 
 ## Event
 ``` lua
-RegisterNetEvent("esx_job_creator:actions:search:searchPlayer", function(targetServerId)
+RegisterNetEvent("jobs_creator:actions:search:searchPlayer", function(targetServerId)
 
 end)
 ```
@@ -15,12 +15,12 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:esx:ready", function() 
     -- Disables the default script search (otherwise there would be 2 searches)
-    exports["esx_job_creator"]:disableScriptEvent("esx_job_creator:actions:search:searchPlayer")
+    exports["jobs_creator"]:disableScriptEvent("jobs_creator:actions:search:searchPlayer")
 end)
 
-RegisterNetEvent("esx_job_creator:actions:search:searchPlayer", function(targetServerId)
+RegisterNetEvent("jobs_creator:actions:search:searchPlayer", function(targetServerId)
     TriggerEvent("external_script:searchInPlayerInventory", targetServerId)
 end)
 ```

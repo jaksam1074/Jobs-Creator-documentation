@@ -2,7 +2,7 @@ To retrieve allowed actions from player's job
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:getAllowedActions()
+exports["jobs_creator"]:getAllowedActions()
 ```
 
 ### Return value
@@ -12,7 +12,7 @@ exports["esx_job_creator"]:getAllowedActions()
 
 ## Example
 ``` lua
-local actions = exports["esx_job_creator"]:getAllowedActions()
+local actions = exports["jobs_creator"]:getAllowedActions()
 
 print(ESX.DumpTable(actions))
 

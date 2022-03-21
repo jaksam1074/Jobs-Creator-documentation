@@ -2,7 +2,7 @@ To add a weapon in a marker ID for a specific player
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:addWeaponToArmory(markerId, playerIdentifier, weaponName, weaponAmmo, weaponComponents, weaponTintIndex)
+exports["jobs_creator"]:addWeaponToArmory(markerId, playerIdentifier, weaponName, weaponAmmo, weaponComponents, weaponTintIndex)
 ```
 
 ### Parameters
@@ -23,7 +23,7 @@ exports["esx_job_creator"]:addWeaponToArmory(markerId, playerIdentifier, weaponN
 
 ## Example
 ``` lua
-local success = exports["esx_job_creator"]:addWeaponToArmory(3, "2570e6efd3671584d7ed05a45cbf4156f782wwac", "WEAPON_PISTOL", 5 {}, 1)
+local success = exports["jobs_creator"]:addWeaponToArmory(3, "2570e6efd3671584d7ed05a45cbf4156f782wwac", "WEAPON_PISTOL", 5 {}, 1)
 
 print(success)
 ```

@@ -2,7 +2,7 @@ Triggered when a player buys an item/weapon in shop marker
 
 ## Event
 ``` lua
-RegisterNetEvent("esx_job_creator:market:soldItem", function(playerId, markerId, itemName, itemQuantity, totalPrice)
+RegisterNetEvent("jobs_creator:market:soldItem", function(playerId, markerId, itemName, itemQuantity, totalPrice)
 
 end)
 ```
@@ -19,7 +19,7 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:market:soldItem", function(playerId, markerId, itemName, itemQuantity, totalPrice)
+RegisterNetEvent("jobs_creator:market:soldItem", function(playerId, markerId, itemName, itemQuantity, totalPrice)
     print("Player ID :" .. playerId .. " sold x" .. itemQuantity .. " " .. itemName .. " from shop " .. markerId)
 end)
 ```

@@ -1,4 +1,4 @@
-In case your server uses different script names than the default ones, you can edit those names in `esx_job_creator/integrations/sh_integrations.lua`
+In case your server uses different script names than the default ones, you can edit those names in `jobs_creator/integrations/sh_integrations.lua`
 
 Example of default ones
 ``` lua

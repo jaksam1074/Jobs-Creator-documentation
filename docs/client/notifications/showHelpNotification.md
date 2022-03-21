@@ -2,7 +2,7 @@ Used to show the usual `Press E to ...` at the top left of the player's screen
 
 ## Export
 ``` lua
-exports["esx_job_creator"]:replaceShowHelpNotification(customFunction)
+exports["jobs_creator"]:replaceShowHelpNotification(customFunction)
 ```
 
 ### Parameters
@@ -20,8 +20,8 @@ local function myCustomHelpNotification(message)
     ExternalScript.showHelpNotification(message)
 end
 
-RegisterNetEvent("esx_job_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:esx:ready", function() 
     -- This will replace the base function with the one you want
-    exports["esx_job_creator"]:replaceShowHelpNotification(myCustomHelpNotification)
+    exports["jobs_creator"]:replaceShowHelpNotification(myCustomHelpNotification)
 end)
 ```

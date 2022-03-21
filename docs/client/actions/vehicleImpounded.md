@@ -2,7 +2,7 @@ Triggered when a vehicle is impounded
 
 ## Event
 ``` lua
-AddEventHandler("esx_job_creator:actions:vehicleImpounded", function(vehiclePlate, vehicleModel)
+AddEventHandler("jobs_creator:actions:vehicleImpounded", function(vehiclePlate, vehicleModel)
 
 end)
 ```
@@ -16,7 +16,7 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("esx_job_creator:actions:vehicleImpounded", function(vehiclePlate, vehicleModel)
+RegisterNetEvent("jobs_creator:actions:vehicleImpounded", function(vehiclePlate, vehicleModel)
     -- You can add your impound script exports here
     TriggerServerEvent("impound_script:impoundVehicle", vehiclePlate, vehicleModel)
 end)
