@@ -11,7 +11,7 @@ end)
 ``` lua
 -- To place in jobs_creator/integrations/cl_integrations.lua
 
-RegisterNetEvent("jobs_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:framework:ready", function() 
     -- Disables the default script billing (otherwise there would be 2 billings)
     exports["jobs_creator"]:disableScriptEvent("jobs_creator:actions:createBilling")
 end)

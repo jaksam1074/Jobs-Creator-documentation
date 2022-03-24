@@ -17,7 +17,7 @@ end)
 ## Example
 ``` lua
 -- In jobs_creator/integrations/cl_integrations.lua
-RegisterNetEvent("jobs_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:framework:ready", function() 
     -- Disables the default script progress bar (otherwise there would be 2 progress bars)
     exports["jobs_creator"]:disableScriptEvent("jobs_creator:internalProgressBar")
 end)

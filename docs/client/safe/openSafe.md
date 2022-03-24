@@ -15,7 +15,7 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("jobs_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:framework:ready", function() 
     -- Disables the default script safe
     exports["jobs_creator"]:disableScriptEvent("jobs_creator:safe:openSafe")
 end)

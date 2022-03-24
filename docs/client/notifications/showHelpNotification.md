@@ -20,7 +20,7 @@ local function myCustomHelpNotification(message)
     ExternalScript.showHelpNotification(message)
 end
 
-RegisterNetEvent("jobs_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:framework:ready", function() 
     -- This will replace the base function with the one you want
     exports["jobs_creator"]:replaceShowHelpNotification(myCustomHelpNotification)
 end)

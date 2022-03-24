@@ -15,7 +15,7 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("jobs_creator:esx:ready", function() 
+RegisterNetEvent("jobs_creator:framework:ready", function() 
     -- Disables the default script stash
     exports["jobs_creator"]:disableScriptEvent("jobs_creator:stash:openStash")
 end)
