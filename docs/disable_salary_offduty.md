@@ -3,7 +3,7 @@ The reason why after you go off-duty, you still receive salary, it's because es_
 
 To disable players salary when they are off-duty, you have to integrate Jobs Creator event with es_extended.
 
-To do it, you have to edit the code in `ex_extended/server/paycheck.lua` and to replace with the snippet below:
+To do it, you have to edit the code in `es_extended/server/paycheck.lua` and to replace with the snippet below:
 
 ## New code (should replace all the old code of paycheck.lua)
 ```lua
@@ -52,3 +52,19 @@ ESX.StartPayCheck = function()
 	SetTimeout(Config.PaycheckInterval, payCheck)
 end
 ```
+
+## I have an error / the code doesn't work
+The snippet doesn't work on all ESX version, this won't be an issue because the only code you need to add, it's 
+
+```lua
+and exports["jobs_creator"]:isPlayerOnDuty(xPlayer.source)
+```
+
+An example:
+
+**Before**
+![Example](paycheck_before.jpg "Example")
+
+
+**After**
+![Example](paycheck_after.jpg "Example")
