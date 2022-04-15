@@ -1,3 +1,5 @@
+# Replace default help notification
+
 Used to show the usual `Press E to ...` at the top left of the player's screen
 
 ## Export

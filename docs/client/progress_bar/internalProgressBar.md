@@ -1,3 +1,5 @@
+# Replace/Disable default progress bar
+
 Triggered when using progress bar
 
 ## Event
