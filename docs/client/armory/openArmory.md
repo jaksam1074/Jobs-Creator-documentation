@@ -13,7 +13,7 @@ end)
 | -                 | -         | -                                 |
 | `markerId`            | int       | Marker ID  |
 
-## Example
+## Example (you can place it in the folder integrations/cl_integrations.lua of the script)
 ``` lua
 RegisterNetEvent("jobs_creator:framework:ready", function() 
     -- Disables the default script armory

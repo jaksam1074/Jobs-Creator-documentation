@@ -16,7 +16,7 @@ end)
 | `message`         | string    | Message of the notification  |
 | `uncoloredMessage`         | string    | Message of the notification but without ~r~, ~g~, etc.  |
 
-## Example
+## Example (you can place it in the folder integrations/cl_integrations.lua of the script)
 ``` lua
 RegisterNetEvent("jobs_creator:framework:ready", function() 
     -- Disables the default script notification (otherwise there would be 2 notifications)

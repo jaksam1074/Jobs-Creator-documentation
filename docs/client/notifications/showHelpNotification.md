@@ -13,7 +13,7 @@ exports["jobs_creator"]:replaceShowHelpNotification(customFunction)
 | -                 | -         | -                             |
 | `customFunction`         | function    | A function that will replace the default ESX.ShowHelpNotification method. **Requires** the message parameter and will be called each frame |
 
-## Example
+## Example (you can place it in the folder integrations/cl_integrations.lua of the script)
 ``` lua
 local function myCustomHelpNotification(message)
     -- Customize your function to fit your needs
