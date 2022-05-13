@@ -14,7 +14,7 @@ To add the new items, you have to edit `qb-core/shared/items.lua` file and add a
 ```
 
 ### Screenshot example:
-[![Example screenshot](qb_core_jobs_creator_items.jpg)](qb_core_jobs_creator_items.jpg)
+![Example screenshot](images/qb_core_jobs_creator_items.jpg)
 
 ## Installing ESX menu
 To make the script works, you need to install ESX menu

@@ -63,8 +63,8 @@ and exports["jobs_creator"]:isPlayerOnDuty(xPlayer.source)
 An example:
 
 **Before**
-![Example](paycheck_before.jpg "Example")
+![Example](images/paycheck_before.jpg "Example")
 
 
 **After**
-![Example](paycheck_after.jpg "Example")
+![Example](images/paycheck_after.jpg "Example")

@@ -9,4 +9,4 @@ ESX.ServerCallbacks = Core.ServerCallbacks
 ```
 
 As in the screenshot <br><br>
-![Example](server_callbacks.jpg "Example")
+![Example](images/server_callbacks.jpg "Example")
