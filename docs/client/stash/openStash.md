@@ -1,3 +1,5 @@
+# Replace default stash
+
 Triggered when opening a stash
 
 ## Event

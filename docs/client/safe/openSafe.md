@@ -1,3 +1,5 @@
+# Replace default safe
+
 Triggered when opening a safe
 
 ## Event

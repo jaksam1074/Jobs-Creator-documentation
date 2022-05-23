@@ -1,3 +1,4 @@
+# Get if local player is handcuffed
 Returns if the client/player is handcuffed
 
 ## Export

@@ -1,4 +1,4 @@
-# Server crash on script start
+# Fix server crash on script start
 
 If your server crashes when starting the script, it means you are using an old version of `mysql-async` script 
 

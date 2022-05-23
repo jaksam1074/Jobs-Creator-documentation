@@ -1,3 +1,5 @@
+# Replace default armory
+
 Triggered when opening an armory
 
 ## Event

@@ -1,3 +1,4 @@
+# Get player allowed actions
 To retrieve allowed actions from player's job
 
 ## Export
